@@ -10,16 +10,18 @@
 <body>
     <a href="/home">home</a>
     <a href="/about">about</a>
+    <a href="/blog">blog</a>
+    <a href="/contact">contact</a>
     <h1>Halaman about</h1>
 
     <script src="js/script.js"></script>
 
     <img src="img/fda.JPG" alt="hooh" width="300">
-    
+
     <h3>Owner : @php echo $nama;
     @endphp </h3>
     <h3> <?php echo "ownernya :", $nama; ?> </h3>
-    <h3> <?= "ownernya :", $nama; ?> </h3>
+    <h3> <?= "ownernyaaa :", $nama; ?> </h3>
     <h3> Ownernya itu : {{ $nama }} </h3>
 
 </body>
